@@ -5,7 +5,7 @@
 1234
 12345......n
 """
-n=int(input("\n Enter a number "))
+n=int(input("\n Enter a nummber "))
 for i in range(1,n+1):
     for j in range(1,i+1):
         print(j,end="")
