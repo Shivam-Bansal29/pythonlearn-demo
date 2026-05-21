@@ -5,7 +5,6 @@ for i in account:
     wealth=0
     for j in i:
         wealth=wealth+j
-    print(wealth)
     Money.append(wealth)
 Max=Money[0]
 for x in range(0,len(Money)):
