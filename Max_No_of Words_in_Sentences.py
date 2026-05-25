@@ -9,7 +9,7 @@ for sentence in sentences:
         words=0
     else:
         words=0
-    for ch in i:
+    for ch in sentence:
         if(ch==" "):
             words=words+1
     if(maximum<words):
