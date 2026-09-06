@@ -2,8 +2,7 @@
 prices =[1,2]
 purchase = prices[0]
 profit = 0 
-for i in range(1,len(prices)):
-        print(85)
+for i in range(1,len(prices)):s
         if(prices[i]<purchase):
                 purchase = prices[i]
         
