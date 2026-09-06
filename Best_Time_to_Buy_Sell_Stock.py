@@ -2,11 +2,11 @@
 prices =[1,2]
 purchase = prices[0]
 profit = 0 
-for i in range(1,len(prices)):s
+for i in range(1,len(prices)):
         if(prices[i]<purchase):
                 purchase = prices[i]
         
-        cprofit = prices[i+1] - purchase
+        cprofit = prices[i] - purchase
         
         if(cprofit > profit):
                 profit = cprofit
